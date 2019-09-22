@@ -15,7 +15,7 @@ pipeline
     userRemoteConfigs: [[url: 'https://github.com/porwalneha/Jenkins-maven.git']]])
         }
         }
-        stage("Build"){
+        stage("Build**************"){
             steps{
                
                 sh 'mvn compile'
